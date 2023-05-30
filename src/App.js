@@ -8,7 +8,7 @@ import BackToTopButton from './components/Back';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <BackToTopButton />
       
       <Routes>
@@ -17,7 +17,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
